@@ -7,7 +7,7 @@ provider "aws" {
 
 resource "aws_key_pair" "deployer" {
   key_name = "deployer-key" 
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRB+TSPb/tpva0X6q3BOJG7bPjY+AkVZMc8UjcFWEgW1osdPqXoEBBChlr/uuV7Ly7BrYEuSMHT0LlzpNpQfGrqbsyLr3eoWmKfLb5K11gxzxfItkFCxJUaSkOjH5Mu0p2FWZUbImEhnlQ5Ss8UGN2U4COSAwP7BpscelV17mBStOFIkn2lLpoH+XTiYcA8NKC9l++EKYGmuB3s+CMxFOY6Cj5mXN6W4QrVx10D6Cz4JlYaXKN7LOlZq63ombwPlu9fvoScvslKwG6unIgzk7VJnM2SKdlqoxOjatdNyxu1BO5fhZCLhFpCoVpkqoRs01z99lkoV69W8TUvs5OXvVb jmbataller@Joses-MacBook-Pro.local"
+  public_key = "ssh-rsa XXXXXXXXXXXX user@host"
 }
 
 resource "aws_vpc" "default" {
